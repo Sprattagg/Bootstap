@@ -11,18 +11,42 @@
 }
 body{
     /* background: var(--greencol) */
+    font-family: 'Exo','Tajawal', sans-serif;
 
 }
 .header{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+    /* grid-column:4/4; varför funkar det inte */
+    grid-row: 2/2;
+    top:20px;
+}
+.navli a {
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 2px;
+    font-family: 'Exo';
+    font-size: 22px;
+    color: whitesmoke;
+    font-style:bold;
+   
 }
 .navbar {
     display:grid;
-    grid-template-columns: repeat(8,1fr);
+    grid-template-columns: repeat(5, 1fr);
     list-style: none;
+    text-align: center;
+    grid-gap: 2px;
 }
 .navli{
    
   
+}
+.logga img {
+    background-image: url(img/owl-576542_640.png);
+    height: 200px;
+    width:200px;
+    background-size: cover;
 }
