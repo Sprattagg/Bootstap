@@ -1,0 +1,12 @@
+.gridContainer {
+   height:700px;
+   display:grid;
+   grid-template-columns: 100px 200px;
+   grid-gap: 10px;
+   grid-template-rows: 100px 100px 100px;
+}
+
+.gridItems {
+    background: turquoise;
+    height: 100px;
+}

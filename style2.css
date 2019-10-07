@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 2500px;
+}
+
+#parent {
+    border:2px solid black;
+    height: 900px;
+    width: 850px;
+    position:relative;
+}
+div{
+ border: 2px solid seagreen;
+ height: 200px;
+ width: 100px;
+ margin:2px;
+
+}
+
+#id-1{
+    background: slateblue;
+    position:absolute;
+    left: 55%;
+    top:20%
+}
+#id-2{
+    background: indigo;
+    position: absolute;
+     left:40%;
+    top: 20%;
+    
+}
+#id-3{
+    background: lightcoral;
+    position:absolute;
+    top:40%;
+    left:40%;
+}
+#id-4{
+    background: white;
+    position:absolute;
+    top:40%;
+    left:55%;
+}

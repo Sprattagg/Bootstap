@@ -1,0 +1,52 @@
+*::after,
+*::before{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+}
+:root{
+    --bace: rgba(189, 57, 194, 0.76);
+    --btn-width:2rem;
+}
+
+body {
+    font-size:10px;
+}
+img {
+    margin:1.25rem;
+    float:right;
+}
+
+#item-4{
+    clear: left;
+}
+header {
+    height: 30rem;
+    width: 100%;
+    background-image: url(/img/large.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+#btn{
+    background: grey;
+    border-radius: 10rem;
+    padding:0.5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
