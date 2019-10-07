@@ -19,3 +19,21 @@ header {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+.navbar {
+    text-transform: uppercase;
+    text-decoration:none;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+.item {
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+}
+.item:hover {
+    color: red;
+
+}
