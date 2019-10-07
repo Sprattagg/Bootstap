@@ -1,0 +1,21 @@
+*,*::before
+
+body{
+    font-family: 'Exo','Tajawal', sans-serif;
+
+
+}
+
+header {
+    height: 90vh;
+    background:rgb(240, 240, 240);
+    position: relative;
+
+}
+
+.headingstyle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
