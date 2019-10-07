@@ -1,0 +1,28 @@
+
+:root{
+    --greencol:green;
+}
+
+*
+{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;   
+}
+body{
+    /* background: var(--greencol) */
+
+}
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.navbar {
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+    list-style: none;
+}
+.navli{
+   
+  
+}
