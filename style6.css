@@ -10,3 +10,23 @@
     background: turquoise;
     height: 100px;
 }
+
+.bilder{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+    grid-template-rows: repeat()
+}
+.blrd{
+    height:300px;
+    width: 300px;
+    background-image: 
+
+}
+
+@media screen and (max-width:720px){
+    .bilder{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
