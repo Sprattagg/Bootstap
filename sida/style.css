@@ -14,14 +14,19 @@ body{
     font-family: 'Exo','Tajawal', sans-serif;
 
 }
+.nav {
+    right: 20px;
+}
 .header{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 1fr 1fr;
-    /* grid-column:4/4; varför funkar det inte */
-    grid-row: 2/2;
+    
     top:20px;
 }
+
+    
+
 .navli a {
     text-decoration: none;
     background-color: black;
@@ -31,17 +36,24 @@ body{
     font-size: 22px;
     color: whitesmoke;
     font-style:bold;
-   
+    
+    
+}
+.navli a:hover{
+    color:#433473;
 }
 .navbar {
-    display:grid;
-    grid-template-columns: repeat(5, 1fr);
+   
     list-style: none;
     text-align: center;
     grid-gap: 2px;
+    display:flex;
+    justify-content: flex-end;
+
 }
 .navli{
-   
+  display:flex;
+  justify-content: flex-end;
   
 }
 .logga img {
