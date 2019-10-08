@@ -1,3 +1,9 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
 body{
     
 }
@@ -21,12 +27,14 @@ body{
 
 }
 .tjanster{
-    height: 5rem;
+    
     position: relative;
+    height: 200px;
     margin: 60px;
 }
 .heading1{
-    margin-left:20px;
+    text-align: center;
+    
     
 }
 .m{
@@ -38,21 +46,22 @@ body{
 }
 
 .lista {
-    border: 2px solid rgb(0, 0, 0);
+
     list-style: none;
     text-align: center;
-    display:inline-block;
-    padding:5px; 
+    display:flex;
+    
 
 }
 .li {
     border: 2px solid rgb(0, 0, 0);
     list-style: none;
     text-align: center;
-    display:inline-block;
-    padding:5px;   
-    transform:translate(-75%);    
-    border-radius: 2px;
+  
+    padding:5px; 
+    margin: 5px;  
+    
+    border-radius: 4px;
 }
 
 .cards{
@@ -77,4 +86,12 @@ body{
 
 .card-img-top{
 
+}
+
+@media screen and (max-width: 600px){
+ .lista {
+     display:flex;
+     flex-direction: column;
+     
+ }
 }
