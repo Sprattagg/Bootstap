@@ -1,0 +1,58 @@
+body{
+    
+}
+
+.header{
+    height: 600px;
+    background-image: url(/img/tie-690084_1920.jpg);
+    width: 100%;
+    color:whitesmoke;
+}
+.c{ 
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+
+}
+.tjanster{
+    position:relative;
+}
+.m{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+.lista {
+
+}
+.li {
+    border: 2px solid whitesmoke;
+    list-style: none;
+    text-align: center;
+    display:inline-block;
+    padding:5px;   
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.right1{
+    top:150px;
+}
+.right2{
+    top:150px;
+}
+
+.container{
+    
+    width:100%;
+}
+.contact{
+    width:100%;
+}
