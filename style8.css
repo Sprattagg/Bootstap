@@ -9,7 +9,7 @@ body{
     width: 100%;
     color:whitesmoke;
 }
-.btn{
+.hb{
     position: absolute;
     transform: translate(75%);
 }
@@ -52,6 +52,7 @@ body{
     display:inline-block;
     padding:5px;   
     transform:translate(-75%);    
+    border-radius: 2px;
 }
 
 .cards{
