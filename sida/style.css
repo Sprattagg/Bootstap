@@ -14,6 +14,13 @@ body{
     font-family: 'Exo','Tajawal', sans-serif;
 
 }
+.fullcontainer{
+    width:95%;
+    text-align: center;
+    margin-left:20px;
+    margin-right:20px;
+    border-radius:4px;
+}
 .nav {
     position: relative;
     right: 20px;
@@ -25,9 +32,9 @@ body{
     grid-template-rows: 1fr 1fr;
     width:100%;
     height:200px;
-    
+    border-radius: 4px;
     background: linear-gradient(to right, rgba(13, 4, 27, 0.3), rgba(255, 255, 255, 0.3));
-    
+    margin:20px;
   
 }
 
@@ -43,11 +50,13 @@ body{
     color: whitesmoke;
     font-style:bold;
     margin:5px;
-    margin-top: 200px;
+    transition: ease-in-out .3s;
+    
 }
 .navli a:hover{
     color:#433473;
     box-shadow: 2px 2px 8px #433473;
+    transform: scale(1.5);
 }
 .navbar {
     margin: 20px;
@@ -56,10 +65,7 @@ body{
      display:flex;
      justify-content: flex-end;
 }
-.navli{
 
-  
-}
 .logga img {
     height: 150px;
     width:100px;
