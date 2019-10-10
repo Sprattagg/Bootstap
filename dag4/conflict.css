@@ -1,0 +1,13 @@
+.button{
+    background:red;
+ }
+ header#header h1.heading .button {
+    background:teal;
+ }
+ a{
+    background: yellow;
+ }
+ #header a.button:hover {
+    background: saddlebrown;
+ }
+ 

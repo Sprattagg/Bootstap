@@ -1,0 +1,7 @@
+container{
+    height: 20rem;
+    width: 20rem;
+    background: linear-gradient(to right, red, yellow);
+    box-shadow: 2px;
+    border
+}

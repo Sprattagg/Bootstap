@@ -8,7 +8,9 @@ body{
 
 header {
     height: 90vh;
-    background:rgb(240, 240, 240);
+    background: url("img/tie-690084_1920.jpg"), url("img/office-1209640_640.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
     position: relative;
 
 }
@@ -27,11 +29,13 @@ header {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 10px;
+    
 }
 .item {
     background-color: black;
     color:whitesmoke;
     text-align: center;
+    box-shadow: 2px 2px rgb(168, 26, 26, 0.4);
 }
 .item:hover {
     color: red;

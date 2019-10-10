@@ -15,7 +15,9 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:10px;
-    grid-template-rows: repeat()
+    grid-template-rows: repeat();
+    
+    bac
 }
 .blrd{
     height:300px;
