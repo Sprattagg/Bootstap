@@ -11,12 +11,14 @@
     
     .container {
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height:95vh;
+        width: 90%;
+        margin:auto;
         grid-template-areas:
         "header header header"
         "main main kontakt"
-        
-        
-        "footer footer footer";
+        "footer footer footer"; /* . betyder lämna tom */
         grid-gap: 1rem;
     }
     
@@ -24,6 +26,7 @@
         display:grid;
         grid-area: header;
         text-align: center;
+        background: linear-gradient(to right, rgba(85, 1, 1, 0.3), rgba(255, 255, 255, 0.3));
         grid-template-areas: 
         "header__välkommen nav";
         
@@ -46,6 +49,7 @@
         background: black;
         color:white;
         text-align: center;
+        border-radius: 6px;
     }
     .nav__li:hover {
         box-shadow: 2px 2px red;
