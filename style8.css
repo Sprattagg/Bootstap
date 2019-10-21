@@ -84,14 +84,18 @@ body{
     width:100%;
 }
 
-.card-img-top{
 
-}
 
 @media screen and (max-width: 600px){
  .lista {
      display:flex;
      flex-direction: column;
      
+ }
+ .cards{
+ display:flex;
+ flex-direction: column;
+ width: 100%;
+ margin: auto;
  }
 }
